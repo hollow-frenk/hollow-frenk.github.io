@@ -21,7 +21,7 @@
         template_iframe,
         
         settings_observer_rootMargin    = '200px 0px',                  //Intersection Observer API option - rootMargin (Y, X)
-        settings_thumb_base_url         = 'https://i.ytimg.com/vi/C8bbQDRgPR8/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&amp;rs=AOn4CLBGwXL6q_rgnaXNmjP2iBpo3JGY0Q',    //Base URL where thumbnails are stored
+        settings_thumb_base_url         = 'https://img.youtube.com/vi/',    //Base URL where thumbnails are stored
         settings_thumb_extension        = 'jpg';                        //Thumbnail extension
         
         
@@ -85,7 +85,7 @@
                     this_wrap.append(this_content);
                     
                     //background-image
-                    this_content.style.setProperty('--yt-lazyload-img','url("' + settings_thumb_base_url + this_data_id + this_data_thumb + '.' + settings_thumb_extension + '")');
+                    this_content.style.setProperty('--yt-lazyload-img','url("' + settings_thumb_base_url + this_data_id + '/maxresdefault.jpg")');
                     
                     //play btn
                     this_playbtn = template_playbtn.cloneNode();
