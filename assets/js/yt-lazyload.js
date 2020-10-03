@@ -85,7 +85,7 @@
                     this_wrap.append(this_content);
                     
                     //background-image
-                    this_content.style.setProperty('--yt-lazyload-img','url("' + settings_thumb_base_url + this_data_id + '/maxresdefault.jpg")');
+                    this_content.style.setProperty('--yt-lazyload-img','url("' + settings_thumb_base_url + this_data_id + '/hqdefault.jpg")');
                     
                     //play btn
                     this_playbtn = template_playbtn.cloneNode();
