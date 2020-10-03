@@ -49,7 +49,7 @@
         template_logo.rel    = 'noreferrer';
         
         template_iframe.setAttribute('allow','accelerometer;autoplay;encrypted-media;gyroscope;picture-in-picture');
-        template_iframe.setAttribute('allowfullscreen','');
+        template_iframe.setAttribute('allowfullscreen','allowautoplay','allowpicture-in-picture');
         
         
         /********************************************************************
