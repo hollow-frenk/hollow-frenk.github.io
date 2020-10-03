@@ -21,7 +21,7 @@
         template_iframe,
         
         settings_observer_rootMargin    = '200px 0px',                  //Intersection Observer API option - rootMargin (Y, X)
-        settings_thumb_base_url         = 'https://i.ytimg.com/',     //Base URL where thumbnails are stored
+        settings_thumb_base_url         = 'https://i.ytimg.com/COIauzEjwU8', 'https://i.ytimg.com/cxPcFQTDaBw'    //Base URL where thumbnails are stored
         settings_thumb_extension        = 'jpg';                        //Thumbnail extension
         
     
