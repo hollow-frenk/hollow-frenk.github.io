@@ -1,0 +1,85 @@
+<rss xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:content="https://purl.org/rss/1.0/modules/content/" xmlns:atom="https://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Pressappoco</title>
+    <link>https://pressappoco.it</link>
+    <description>Un diario di cedevolezza. Scritto da Riccardo Palombo.</description>
+    
+        <item>
+          <title>Da qui a Natale</title>
+          <description>Prometto di tornare a credere in una migliore versione di me, in un'immagine pubblica più curata e più coerente. Niente dolci, meno chili.</description>
+          <link>https://pressappoco.it/11</link>
+          <pubDate>2021-11-06T00:00:00.000Z</pubDate>
+        </item>
+      
+        <item>
+          <title>La fase due</title>
+          <description>Ho deciso di chiudere i commenti su tutte le piattaforme social. I motivi spiegati in un messaggio vocale.</description>
+          <link>https://pressappoco.it/10</link>
+          <pubDate>2021-11-02T00:00:00.000Z</pubDate>
+        </item>
+      
+        <item>
+          <title>MacBook Pro 14, seconde impressioni</title>
+          <description>Provo un MacBook Pro 14 con M1 Pro da 24 ore e ho qualcosa da dire sul notch, sul design e sul software macOS Monterey.</description>
+          <link>https://pressappoco.it/9</link>
+          <pubDate>2021-10-27T00:00:00.000Z</pubDate>
+        </item>
+      
+        <item>
+          <title>Studiare lo sviluppo web</title>
+          <description>Ho selezionato dei corsi di programmazione web e delle risorse gratuite per studiare HTML, CSS, Javascript e i framework abbinati. Anche in italiano.</description>
+          <link>https://pressappoco.it/8</link>
+          <pubDate>2021-10-22T00:00:00.000Z</pubDate>
+        </item>
+      
+        <item>
+          <title>Gli indifferenti</title>
+          <description>Ho comprato il nuovo Apple MacBook Pro 14 e adesso ho bisogno di giustificarlo a me stesso.</description>
+          <link>https://pressappoco.it/7</link>
+          <pubDate>2021-10-19T00:00:00.000Z</pubDate>
+        </item>
+      
+        <item>
+          <title>Tre giorni dopo</title>
+          <description>Pressappoco ha una ricerca (ancora) migliorata, i numeri di pagina sotto le pagine, dei tooltip e le gesture per passare da una pagina all'altra. Audio.</description>
+          <link>https://pressappoco.it/6</link>
+          <pubDate>2021-10-13T00:00:00.000Z</pubDate>
+        </item>
+      
+        <item>
+          <title>Metti, le onde</title>
+          <description>Due righe sulle onde, quelle del mare. Ma alla fine è un ragionamento che gira attorno a tutto perché si rischiano di prendere gli sbruffi dappertutto.</description>
+          <link>https://pressappoco.it/5</link>
+          <pubDate>2021-10-10T00:00:00.000Z</pubDate>
+        </item>
+      
+        <item>
+          <title>Questa tastiera piacerà (build)</title>
+          <description>Ho assemblato una tastiera meccanica economica ma consigliata. È la GamaKay LK67, adesso pronta per Super Fun With Caps. Video.</description>
+          <link>https://pressappoco.it/4</link>
+          <pubDate>2021-10-05T00:00:00.000Z</pubDate>
+        </item>
+      
+        <item>
+          <title>Come ho fatto questo sito</title>
+          <description>Pressappoco è sviluppato con SvelteKit, TailwindCSS e MDSvex. È un sito statico ed una PWA. I dettagli e il video su come ho scritto il codice.</description>
+          <link>https://pressappoco.it/3</link>
+          <pubDate>2021-10-01T00:00:00.000Z</pubDate>
+        </item>
+      
+        <item>
+          <title>Primi errori</title>
+          <description>Primi bug fix al codice di pressappoco.it grazie alle vostre segnalazioni. Novità per la ricerca, per la PWA e per il player audio.</description>
+          <link>https://pressappoco.it/2</link>
+          <pubDate>2021-09-30T00:00:00.000Z</pubDate>
+        </item>
+      
+        <item>
+          <title>Introduzione</title>
+          <description>Presentazione di Pressappoco, un diario di cedevolezza ma anche un podcast e una serie di video. Perché ho scelto questo nome e cosa ho intenzione di pubblicare.</description>
+          <link>https://pressappoco.it/1</link>
+          <pubDate>2021-09-28T00:00:00.000Z</pubDate>
+        </item>
+      
+  </channel>
+</rss>
