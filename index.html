@@ -32,7 +32,7 @@
 		<link href=assets/css/vendor-3b1290fc.css rel=stylesheet>
 		<link href=assets/css/__layout.svelte-9ed99d74.css rel=stylesheet>
 		<link href=assets/css/get-posts-ce1dcc46.css rel=stylesheet>
-		<script type=module> import { start } from "assets/start-9cf16ce2.js";
+		<script type=module> import { start } from "./assets/start-9cf16ce2.js";
 			start({
 				target: document.querySelector("#svelte"),
 				paths: {"base":"","assets":""},
@@ -45,8 +45,8 @@
 					status: 200,
 					error: null,
 					nodes: [
-						import("/assets/pages/__layout.svelte-8222e39f.js"),
-						import("/assets/pages/index.svelte-1d5266cd.js")
+						import("./assets/pages/__layout.svelte-8222e39f.js"),
+						import("./assets/pages/index.svelte-1d5266cd.js")
 					],
 					page: {
 						host: location.host, // TODO this is redundant
@@ -58,9 +58,10 @@
 			}); 
 		</script>
 			<script> if ('serviceWorker' in navigator) {
-				navigator.serviceWorker.register('/service-worker.js');
+				navigator.serviceWorkerContainer.register('./service-worker.js');
 			 } 
 			</script> 
+
 			<link href=fonts/robotocondensed-regular.woff2 rel=preload type=font/woff2 as=font crossorigin> 
 			<link href=fonts/robotocondensed-bold.woff2 rel=preload type=font/woff2 as=font crossorigin> 
 			<link href=rss.xml rel=alternate type=application/rss+xml title="Pressappoco RSS Feed"> 
